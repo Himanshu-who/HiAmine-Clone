@@ -1,0 +1,546 @@
+*{
+    margin: 0;
+
+}
+body{
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden; 
+        width: 100%;
+}
+header{
+    height: 8vh;
+    background-color: transparent;
+    padding-left: 1rem;
+    display: flex;
+    position:  sticky;
+    width: 100vw;
+}
+.container1{
+    display: flex;
+    width: 40vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+.firstDiv{
+    padding-top: 3.5vh;
+}
+.logo{
+    padding-top: 2.5vh;
+    width: 11rem;
+    height: 6vh;
+}
+.logo img{
+    height: 5.5vh;
+    width: 10.5rem;
+}
+.search{
+    padding-top: 2vh;
+    display: flex;
+}
+.filter{
+    height: 3vh;
+    color: white;
+    background-color: black;
+    width: 2.5rem;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    font-weight: 300;
+    border-radius: 4px;
+    margin-top: 1.5vh;
+    margin-left: -3rem;
+}
+.search input{
+    width: 21rem;
+    height: 5vh;
+    padding-left: 1rem;
+    font-family: "Poppins", sans-serif;
+}
+.container2{
+    display: flex;
+    margin-left: 1.5rem;
+}
+.circle{
+    height: 4.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4.5vh;
+    margin-top: 2.5vh;
+    border-radius: 50%;
+    
+    margin-right: 0.2rem;
+}
+.discord{
+    background-color: #6F85D5;
+}
+.telegram{
+    background-color: #0088CC;
+}
+.reddit{
+    background-color: #FF3C1F;
+}
+.twitter{
+    background-color: #1D9BF0;
+}
+.box{
+    width: 7rem;
+    padding-top: 2vh;
+}
+.par{
+    font-weight: 400;
+    font-size: small;
+    color: white;
+}
+.container3{
+    display: flex;
+    margin-left: 2rem;
+}
+.button{
+    margin-left: 12rem;
+    margin-top: 1.5vh;
+}
+.button button{
+    width: 4.5rem;
+    height: 6.5vh;
+    border-radius: 10px;
+    font-weight: 600;
+    background-color: #FFBADE;
+}
+
+.heroimg {
+    height: 85vh;
+    margin-top: -8vh;
+    /* width: 66rem; */
+    margin-left: 30rem;
+    background-color: #201F31; /* Background color for blending */
+    background-image: url("img/heroimg.jpg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 180px 0 100px -80px #201F31,   /* Left side inner shadow */
+                inset -150px 0 100px -80px #201F31,  /* Right side inner shadow */
+                inset 0 150px 100px -80px #201F31,   /* Bottom side inner shadow */
+                inset 0 -150px 100px -80px #201F31;  /* Top side inner shadow */
+}
+
+.heroimg::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.outermost{
+    background-color: rgb(32,31,49);
+    height: 360vh;
+    width: 100vw;
+}
+.heroSection{
+margin-top: -61vh;
+height: 56vh;
+background-color: transparent;
+width: 51rem;
+margin-left: 2.5rem;
+}
+.wright{
+    font-weight: 700;
+    font-size: xxx-large;
+    color: white;
+
+}
+.no{
+    font-size: x-small;
+    font-weight: 600;
+    color: black;
+}
+.hi{
+    height: 2.75vh;
+     width: 2rem;
+      background-color: rgba(255, 255, 255, 0.182);
+      display: flex;
+justify-content: center;
+align-items: center;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px ;
+
+}
+.cc{
+background-color: #B0E3AF;
+width: 2.5rem;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 2.75vh;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px ;
+margin-right: 1px;
+}
+.mic{
+    background-color: #B9E7FF;
+    width: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.75vh;
+    margin-right: 1px;
+}
+.out{
+    display: flex;
+}
+.icons{
+    display: flex;
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+    justify-content: space-between;
+    width: 25rem;
+}
+.buttons button{
+    height: 6vh;
+    width: 9rem;
+    border-radius: 25px;
+    border: none;
+    background-color: #FFBADE;
+    font-weight: 300;
+    font-size: medium;
+    margin-right: 1rem;
+}
+.trending{
+    padding-left: 1rem;
+    margin-top: 10vh;
+    height: 40vh;
+    background-color: #201F31;
+}
+.pages{
+    height: 45vh;
+    display: flex;
+}
+ .img1{
+    height: 40vh;
+    padding-right: 20px;
+ }
+ .img1 span{
+    transform: rotate(-90deg);
+    transform-origin: left bottom;
+    display: inline-block;
+    padding-top: 30vh;
+    font-weight: 500;
+    color: white;
+    margin-left: 1.25rem;
+ }
+ .img1 p{
+    margin-top: 1vh;
+    
+    font-size: large;
+    font-weight: 600;
+    color: #FFBADE;
+ }
+ .realImg{
+    margin-left: 1.5rem;
+    height: 36vh;
+    width: 12rem;
+    margin-top: -37vh;
+ }
+.realImg img{
+    height: 36vh;
+    width: 12rem;
+}
+.trendHov{
+    background-color: transparent;
+    margin-top: -13vh;
+    height: 36vh;
+}
+.img2{
+    height: 35vh;
+    opacity: 0;
+    margin-left: 3rem;
+    padding: 1rem;
+    width: 13rem;
+    border-radius: 10%;
+    background: transparent; /* Transparent background color */
+    backdrop-filter: blur(4px);
+    transition: opacity 0.5s;
+    transform: translateX(-50%);
+}
+.star{
+    display: flex;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+}
+.img2:hover{
+    height: 35vh;
+    opacity: 1;
+    visibility: visible;
+    margin-left: 3rem;
+    padding: 1rem;
+    width: 13rem;
+    border-radius: 10%;
+    /* background: transparent; Transparent background color */
+    backdrop-filter: blur(4px);
+}
+.luffy{
+    height: 10vh;
+    padding-left: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.luffypic{
+    height: 10vh;
+    width: 10vh;
+    border-radius: 50%;
+    background-color: #0088CC;
+    background-image: url(img/luffy.jpg);
+    background-size: cover;
+}
+.chart{
+    height: 88vh;
+    width: 68rem; 
+    display: flex;
+    background-color: transparent;
+    margin-left: 1rem;
+}
+.column1{
+    height: 88vh;
+    
+    width: 22rem;
+    background-color: transparent;
+}
+.top{
+    height: 10vh;
+    background-color: transparent;
+    color: #FFBADE;
+    display: flex;
+    font-weight: 600;
+    /* justify-content: center; */
+    align-items: center;
+    font-size: 140%;
+    width: 22rem;
+}
+.index{
+    height: 15vh;
+    padding-bottom: 2vh;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+}
+.realimg{
+    height: 14vh;
+    width: 4rem;
+    margin-right: 1rem;
+    border-radius: 15px;
+}
+.realimg img{
+    height: 14vh;
+    width: 4rem;
+    border-radius: 10px;
+}
+.genre{
+    height: 50vh;
+    width: 20rem;
+    background-color: transparent;
+}
+.midsec{
+    display: flex;
+}
+.wall{
+    height: 50vh;
+    width: 18rem;
+    background-color: #4B4A59;
+    padding: 1rem;
+}
+.row1{
+    width: 18rem;
+    display: flex;
+    padding-bottom: 2vh;
+    justify-content: space-between;
+}
+#cutt{
+    margin-top: 2vh;
+}
+.cutt{
+    height: 5vh;
+    color: white;
+    width: 18rem;
+    border: none;
+    background-color: #373646;
+    margin-top: 4vh;
+    border-radius: 5px;
+}
+.lastsec{
+    height: 70vh;
+    margin-left: 1rem;
+    width: 63rem;
+    padding-bottom: 2vh;
+    margin-top: 10vh;
+}
+.estsch{
+    height: 5vh;
+    color: #FFBADE;
+    font-size: 130%;
+    font-weight: 600;
+}
+.fri{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 10vh;
+    width: 8rem;
+    margin-right: 2rem;
+    background-color: #FFBADE;
+    border-radius: 10px;
+}
+.sat{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    height: 10vh;
+    width: 8rem;
+    margin-right: 3rem;
+    background-color: rgb(55,54,70);
+    border-radius: 10px;
+}
+.episode{
+    display: flex;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+}
+.spart{
+    font-size: 90%;font-weight: 500;margin-right: 1rem;color: white;
+}
+.index:hover{
+    .spart{
+    color: #FFBADE;}
+}
+.epno{
+    color: white;font-size: small;margin-left: 34rem;
+    height: 4vh;
+    border-radius: 5px;
+    width: 6.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sno:hover{
+    .rsno{
+        color: white;
+    }
+    
+}
+.ani{
+    color: white; font-weight: 500;
+}
+.time{
+    color: rgb(114,113,121); padding-right: 2rem;
+}
+.episode:hover{
+    .time{
+        color: #FFBADE;
+    }
+    .epno{
+        background-color: #FFBADE;
+        color: black;
+    }
+    .fa-solid fa-play{
+        background-color: black;
+    }
+
+}
+.top10{
+    height: 80vh;
+    width: 20rem;
+    background-color: transparent;
+    margin-top: -95vh;
+    margin-left: 69rem;
+    
+}
+.today{
+    height: 4vh;
+display: flex;
+margin-left: 7rem;
+justify-content: space-between;
+    width: 9rem;
+    background-color: antiquewhite;
+    border-radius: 8px;
+    margin-bottom: 2vh;
+}
+.set{
+    display: flex;
+    margin-bottom: 3vh;
+}
+.rtoday{
+    height: 4vh;
+    font-size: small;
+    width: 3rem;
+border-radius: 5px;
+    background-color: #FFBADE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.week{
+    font-size: small;
+    background-color: #373646;
+    color: white;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.month{
+    font-size: small;
+    background-color: #373646;
+    color: white;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px ;
+}
+.sno{
+    height: 13vh;
+    width: 20rem;
+    background-color: #2B2A3C;
+    display: flex;
+}
+.rsno{
+    height: 13vh;
+    width: 1rem;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    font-size: large;
+    color: #FFBADE;
+    font-weight: 600;
+}
+.hola{
+    height: 10vh;
+ margin-left: 1rem;
+ margin-top: 1.5vh;
+ border-radius: 5px;
+    width: 3rem;
+}
+.lstsec{
+    padding: 1rem;
+}
+footer{
+    margin: 1rem;
+    margin-top: 10vh;
+}
+.line1{
+    display: flex;
+}
+.duma{
+    width: 35rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.hah{
+    color: white;
+}
